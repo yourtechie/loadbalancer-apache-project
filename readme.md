@@ -25,7 +25,7 @@ Ensure you have the following servers already installed and configured from the 
 
 ### 1.2 Install Apache and Configure Load Balancer
 
-1. SSH into your `Project-8-apache-lb` instance and update the package list:
+1. SSH into your `Apache-lb` instance and update the package list:
    ```bash
    sudo apt update
    ```
