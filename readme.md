@@ -152,9 +152,12 @@ Ensure you have the following servers already installed and configured from the 
 
 ## Target Architecture
 At this stage, your setup should look like this:
-
-- **Apache Load Balancer** (Ubuntu 20.04 EC2 instance)
+- **Apache Load Balancer** (Ubuntu 24.04 EC2 instance)
 - **Two Web Servers** (RHEL8 EC2 instances)
+- **One MySQL DB Server** (Ubuntu 24.04 EC2 instance)
+- **One RHEL8 NFS Server**  (RHEL8 EC2 instance)
+
+   ![](images/15.png)
 
 The Load Balancer will distribute incoming traffic evenly between the two Web Servers using the **bytraffic** balancing method.
 
